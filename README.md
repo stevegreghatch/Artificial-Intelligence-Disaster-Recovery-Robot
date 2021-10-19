@@ -47,15 +47,17 @@ SOLUTION
 
     Reasoning: 
         Informed action.
-        The robot can differentiate various signals (ultrasonic, infrared, and laser). Using the gathered environmental data, the robot can act to survey the disaster site without issue and identify individuals in need of rescue.
+        The robot can differentiate various signals (ultrasonic, infrared, and laser). 
+        Using the gathered environmental data, the robot can act to survey the disaster site without issue and identify individuals in need of rescue.
 
     Knowledge Representation:
         Visual display.
-        The robot provides a first-person point of view. The robot’s knowledge of its environment is represented in a visual format which can be used by rescue crews to monitor the robot’s performance and see potentially inaccessible areas of the disaster site.
+        The robot provides a first-person point of view. 
+        The robot’s knowledge of its environment is represented in a visual format which can be used by rescue crews to monitor the robot’s performance and see potentially inaccessible areas of the disaster site.
 
     Uncertainty:
         The robot proceeds with caution.
-        The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action. These characteristics reinforce the intention of cautious exploration.
+        The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action.           These characteristics reinforce the intention of cautious exploration.
 
     Intelligence:
         To achieve its goal, the robot combines its reasoning (utilization of its sensors and action on gathered environmental data) with its representation of knowledge (visual display), allowing it to overcome its necessary uncertainty (cautious exploration) and achieve its goal (identify individuals in need).
@@ -68,7 +70,8 @@ SOLUTION
 
     Reinforced Learning: 
         Improvement on the robot’s decision-making and total survey time. 
-        The robot is awarded upon completion of a disaster site survey. It must analyze all available square footage to reach this milestone. 
+        The robot is awarded upon completion of a disaster site survey. 
+        It must analyze all available square footage to reach this milestone. 
         The robot is penalized for each second that it takes the robot to complete its survey (starting after the time in which it would take the robot to survey the site in the most optimal path). 
         While reinforced learning will have to be done in a simulated environment (to map out the optimal path), its effect will influence the robot’s behavior/decision-making to navigate a real disaster zone in a more optimal fashion. 
         Though this method, reinforced learning aims to reach the goal of finishing a complete survey in the fastest possible time.
