@@ -44,11 +44,9 @@ Reinforced Learning: Improvement on the robot’s decision-making and total surv
         
 Advanced Search Algorithms: Improvement of shape and pattern recognition. Implementation of advanced search algorithms that teach the robot to recognize common shapes/patterns corresponding with individuals in need will allow for detection of individuals without a heat signature (that might have unfortunately passed away).
 
-Robot Code: Robot code included in submission. 
+Robot Code: see above disaster recovery robot.ttt file
 
-Panopto Recording: Video recording included in submission.
-
-Sources: No outside sources were used.
+Panopto Recording: see above link
 
 -------------------------------------------------------------
 
