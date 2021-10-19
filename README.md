@@ -1,1 +1,1 @@
-# Introduction-to-Artificial-Intelligence-Disaster-Recovery_Robot
+# Introduction to Artificial Intelligence - Disaster Recovery Robot - CoppeliaSim
