@@ -38,27 +38,27 @@ SOLUTION
 
     Internal Representation of the Environment: 
       The robot maintains an internal representation of the environment through its use of a vision sensor, and three proximity sensors.
-        • vision sensor provides a first-person view from the robot’s perspective
-        • ultrasonic proximity sensor informs the robot of near objects and allows it to prevent collisions 
-        • infrared proximitysensor detects heat signatures
-        • laser proximity sensor notifies the robot of approaching water and reroutes the robot to avoid entry
+        •  vision sensor provides a first-person view from the robot’s perspective
+        •  ultrasonic proximity sensor informs the robot of near objects and allows it to prevent collisions 
+        •  infrared proximitysensor detects heat signatures
+        •  laser proximity sensor notifies the robot of approaching water and reroutes the robot to avoid entry
       Through simultaneous internal processing of the beforementioned inputs, a representation of the robot’s surroundings is utilized by the robot to navigate its environment. 
 
 
-    Reasoning: 
-    Informed action. 
-    The robot can differentiate various signals (ultrasonic, infrared, and laser). Using the gathered environmental data, the robot can act to survey the disaster site without issue and identify individuals in need of rescue.
+    Reasoning
+        •  Informed action
+        •  The robot can differentiate various signals (ultrasonic, infrared, and laser). Using the gathered environmental data, the robot can act to survey the disaster site without issue and identify individuals in need of rescue
 
-    Knowledge Representation: 
-    Visual display. 
-    The robot provides a first-person point of view. The robot’s knowledge of its environment is represented in a visual format which can be used by rescue crews to monitor the robot’s performance and see potentially inaccessible areas of the disaster site.
+    Knowledge Representation
+        •  Visual display
+        •  The robot provides a first-person point of view. The robot’s knowledge of its environment is represented in a visual format which can be used by rescue crews to monitor the robot’s performance and see potentially inaccessible areas of the disaster site
 
-    Uncertainty: 
-    The robot proceeds with caution. 
-    The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action. These characteristics reinforce the intention of cautious exploration.
+    Uncertainty
+        •  The robot proceeds with caution
+        •  The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action. These characteristics reinforce the intention of cautious exploration
 
-    Intelligence: 
-    To achieve its goal, the robot combines its reasoning (utilization of its sensors and action on gathered environmental data) with its representation of knowledge (visual display), allowing it to overcome its necessary uncertainty (cautious exploration) and achieve its goal (identify individuals in need).
+    Intelligence
+        •  To achieve its goal, the robot combines its reasoning (utilization of its sensors and action on gathered environmental data) with its representation of knowledge (visual display), allowing it to overcome its necessary uncertainty (cautious exploration) and achieve its goal (identify individuals in need)
 
 
     Further Improvements: 
