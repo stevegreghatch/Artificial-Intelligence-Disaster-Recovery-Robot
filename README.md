@@ -1,5 +1,7 @@
 # Introduction to Artificial Intelligence - Disaster Recovery Robot - CoppeliaSim
 
+Video Demonstration - https://www.youtube.com/watch?v=BGbjMYSzDnA&ab_channel=StevenHatch
+
 SOLUTION
 
 Disaster Environment: The disaster recovery environment chosen for this assignment is the aftermath of a tornado. The floor of the scene is a ground terrain object. The obstacles that have been added to the environment are debris objects (multiple cylinders to represent smaller debris such as household items and elongated cuboids to represent larger debris such as roof rafters) and water (terrain object to represent potential flooding).
