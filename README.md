@@ -44,6 +44,7 @@ SOLUTION
         •  laser proximity sensor notifies the robot of approaching water and reroutes the robot to avoid entry
       Simultaneous internal processing of these inputs creates a representation of the surroundings which is utilized to navigate the environment. 
 
+
     Reasoning, Knowledge Representation, Uncertainty, and Intelligence:
         Reasoning
             •  Informed action
