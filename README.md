@@ -57,7 +57,8 @@ SOLUTION
 
     Uncertainty:
         The robot proceeds with caution.
-        The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action.           These characteristics reinforce the intention of cautious exploration.
+        The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action.
+        These characteristics reinforce the intention of cautious exploration.
 
     Intelligence:
         To achieve its goal, the robot combines its reasoning (utilization of its sensors and action on gathered environmental data) with its representation of knowledge (visual display), allowing it to overcome its necessary uncertainty (cautious exploration) and achieve its goal (identify individuals in need).
