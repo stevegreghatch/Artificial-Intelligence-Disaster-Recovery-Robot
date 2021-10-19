@@ -5,52 +5,66 @@ SOLUTION
 [Video Demonstration](https://www.youtube.com/watch?v=BGbjMYSzDnA&ab_channel=StevenHatch)
 
 
-Disaster Environment: The disaster recovery environment chosen for this assignment is the aftermath of a tornado. The floor of the scene is a ground terrain object. The obstacles that have been added to the environment are debris objects (multiple cylinders to represent smaller debris such as household items and elongated cuboids to represent larger debris such as roof rafters) and water (terrain object to represent potential flooding).
+    Disaster Environment: 
+    The disaster recovery environment chosen for this assignment is the aftermath of a tornado.
+    The floor of the scene is a ground terrain object.
+    The obstacles that have been added to the environment are debris objects and water.
+      •  smaller debris = multiple cylinders to represent household items 
+      •  larger debris = elongated cuboids to represent roof rafters 
+      •  water = terrain object to represent potential flooding
 
-                
-Improved Disaster Recover: The robot will improve disaster recovery in the aftermath of a tornado after the previously mentioned obstacles have been added by its detection of heat signatures and successful navigation of the disaster site. Heat signature detection will inform rescue crews of the location of individuals or pets in need of assistance. The robot can successfully survey the site through utilization of sensors that prevent its collision with debris objects and entry into water.
-        
 
-Architecture: 
+    Improved Disaster Recover: 
+    The robot will improve disaster recovery by its detection of heat signatures and successful navigation of the disaster site.
+    Heat signature detection will inform rescue crews of the location of individuals or pets in need of assistance.
+    The robot can survey the site through utilization of sensors that prevent its collision with debris and entry into water.
 
-        Added Sensors:
-            1.	recoveryRobot_proximity_sensor_infrared
+
+    Architecture: 
+            Added Sensors
+                1.	recoveryRobot_proximity_sensor_infrared
                         •	infrared proximity sensory that allows detection of objects with a heat signature
                         •	disaster recovery aid: utilized to find humans or pets in disaster zone
-            2.	recoveryRobot_proximity_sensor_laser
+                2.	recoveryRobot_proximity_sensor_laser
                         •	laser proximity sensor detects water and reroutes robot from entering water
                         •	disaster recovery aid: utilized to prevent robot from becoming immobile from water
-        Existing Sensors:
-            1.	recoveryRobot_proximity_sensor_ultrasonic
+            Existing Sensors
+                1.	recoveryRobot_proximity_sensor_ultrasonic
                         •	modification: angle has been increased to prevent wheels from getting caught on objects
                         •	ultrasonic proximity sensor prevents robot from collisions with objects
                         •	recoveryRobot_vision_sensor
-                            o	child sensor that allows vision in floating view
-                    
+                            o   child sensor that allows vision in floating view
+                            
 
-Internal Representation of the Environment: The robot maintains an internal representation of the environment through its use of a vision sensor, and three proximity sensors (ultrasonic, infrared, and laser). The vision sensor provides a first-person view from the robot’s perspective. The ultrasonic sensor informs the robot of near objects and allows it to prevent collisions. The infrared sensor detects heat signatures. The laser sensor notifies the robot of approaching water and reroutes the robot to avoid entry. Through simultaneous internal processing of the beforementioned inputs, a representation of the robot’s surroundings is utilized by the robot to successfully navigate its environment. 
-        
-        
-Reasoning: Informed action. The robot can differentiate various signals (ultrasonic, infrared, and laser). Using the gathered environmental data, the robot can act to survey the disaster site without issue and identify individuals in need of rescue.
-
-Knowledge Representation: Visual display. The robot provides a first-person point of view. The robot’s knowledge of its environment is represented in a visual format which can be used by rescue crews to monitor the robot’s performance and see potentially inaccessible areas of the disaster site.
-
-Uncertainty: The robot proceeds with caution. The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action. These characteristics reinforce the intention of cautious exploration.
-
-Intelligence: To achieve its goal, the robot combines its reasoning (utilization of its sensors and action on gathered environmental data) with its representation of knowledge (visual display), allowing it to overcome its necessary uncertainty (cautious exploration) and achieve its goal (identify individuals in need).
-            
-
-Further Improvements: The prototype can be further improved by granting it the ability to swim (in the event of flooding). Rather than avoiding water, the robot could navigate this environmental challenge to detect heat signatures in water that would otherwise be unreachable. The prototype can also improve its performance and learning through Reinforced Learning and Advanced Search Algorithms.
-        
-Reinforced Learning: Improvement on the robot’s decision-making and total survey time. The robot is awarded upon completion of a disaster site survey. It must analyze all available square footage to reach this milestone. The robot is penalized for each second that it takes the robot to complete its survey (starting after the time in which it would take the robot to survey the site in the most optimal path). While reinforced learning will have to be done in a simulated environment (to map out the optimal path), its effect will influence the robot’s behavior/decision-making to navigate a real disaster zone in a more optimal fashion. Though this method, reinforced learning aims to reach the goal of finishing a complete survey in the fastest possible time.
-        
-Advanced Search Algorithms: Improvement of shape and pattern recognition. Implementation of advanced search algorithms that teach the robot to recognize common shapes/patterns corresponding with individuals in need will allow for detection of individuals without a heat signature (that might have unfortunately passed away).
+    Internal Representation of the Environment: 
+      The robot maintains an internal representation of the environment through its use of a vision sensor, and three proximity sensors.
+        • vision sensor provides a first-person view from the robot’s perspective
+        • ultrasonic proximity sensor informs the robot of near objects and allows it to prevent collisions 
+        • infrared proximitysensor detects heat signatures
+        • laser proximity sensor notifies the robot of approaching water and reroutes the robot to avoid entry
+      Through simultaneous internal processing of the beforementioned inputs, a representation of the robot’s surroundings is utilized by the robot to navigate its environment. 
 
 
-Robot Code: see above disaster recovery robot.ttt file
+    Reasoning: Informed action. The robot can differentiate various signals (ultrasonic, infrared, and laser). Using the gathered environmental data, the robot can act to survey the disaster site without issue and identify individuals in need of rescue.
+
+    Knowledge Representation: Visual display. The robot provides a first-person point of view. The robot’s knowledge of its environment is represented in a visual format which can be used by rescue crews to monitor the robot’s performance and see potentially inaccessible areas of the disaster site.
+
+    Uncertainty: The robot proceeds with caution. The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action. These characteristics reinforce the intention of cautious exploration.
+
+    Intelligence: To achieve its goal, the robot combines its reasoning (utilization of its sensors and action on gathered environmental data) with its representation of knowledge (visual display), allowing it to overcome its necessary uncertainty (cautious exploration) and achieve its goal (identify individuals in need).
 
 
-Panopto Recording: see above link
+    Further Improvements: The prototype can be further improved by granting it the ability to swim (in the event of flooding). Rather than avoiding water, the robot could navigate this environmental challenge to detect heat signatures in water that would otherwise be unreachable. The prototype can also improve its performance and learning through Reinforced Learning and Advanced Search Algorithms.
+
+    Reinforced Learning: Improvement on the robot’s decision-making and total survey time. The robot is awarded upon completion of a disaster site survey. It must analyze all available square footage to reach this milestone. The robot is penalized for each second that it takes the robot to complete its survey (starting after the time in which it would take the robot to survey the site in the most optimal path). While reinforced learning will have to be done in a simulated environment (to map out the optimal path), its effect will influence the robot’s behavior/decision-making to navigate a real disaster zone in a more optimal fashion. Though this method, reinforced learning aims to reach the goal of finishing a complete survey in the fastest possible time.
+
+    Advanced Search Algorithms: Improvement of shape and pattern recognition. Implementation of advanced search algorithms that teach the robot to recognize common shapes/patterns corresponding with individuals in need will allow for detection of individuals without a heat signature (that might have unfortunately passed away).
+
+
+    Robot Code: see above disaster recovery robot.ttt file
+
+
+    Panopto Recording: see above link
 
 -------------------------------------------------------------
 
