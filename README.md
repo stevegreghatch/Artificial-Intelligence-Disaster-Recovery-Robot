@@ -70,12 +70,12 @@ SOLUTION
             •  Reinforced Learning
                 •  Improvement on the robot’s decision-making and total survey time
                 •  The robot is awarded upon completion of a disaster site survey 
-                •  It must analyze all available square footage to reach this milestone.
-                •  The robot is penalized for each second that it takes the robot to complete its survey (starting after the time in which it would take the robot to survey the site in the most optimal path). 
-                •  While reinforced learning will have to be done in a simulated environment (to map out the optimal path), its effect will influence the robot’s behavior/decision-making to navigate a real disaster zone in a more optimal fashion.
+                •  It must analyze all available square footage to reach this milestone
+                •  The robot is penalized for each second that it takes the robot to complete its survey (starting after the time in which it would take the robot to survey the site in the most optimal path)
+                •  While reinforced learning will have to be done in a simulated environment (to map out the optimal path), its effect will influence the robot’s behavior/decision-making to navigate a real disaster zone in a more optimal fashion
                 •  Though this method, reinforced learning aims to reach the goal of finishing a complete survey in the fastest possible time.
             •  Advanced Search Algorithms
-                •  Improvement of shape and pattern recognition.
+                •  Improvement of shape and pattern recognition
                 •  Implementation of advanced search algorithms that teach the robot to recognize common shapes/patterns corresponding with individuals in need will allow for detection of individuals without a heat signature (that might have unfortunately passed away)
 
 
