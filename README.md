@@ -9,9 +9,9 @@ SOLUTION
         •  The disaster recovery environment chosen for this assignment is the aftermath of a tornado
         •  The floor of the scene is a ground terrain object
         •  The obstacles that have been added to the environment are debris objects and water
-              •  smaller debris = multiple cylinders to represent household items 
-              •  larger debris = elongated cuboids to represent roof rafters 
-              •  water = terrain object to represent potential flooding
+              •  Smaller Debris = multiple cylinders to represent household items 
+              •  Larger Debris = elongated cuboids to represent roof rafters 
+              •  Water = terrain object to represent potential flooding
 
 
     Improved Disaster Recover
@@ -23,25 +23,25 @@ SOLUTION
     Architecture
             •  Added Sensors
                 1.	recoveryRobot_proximity_sensor_infrared
-                        •	infrared proximity sensory that allows detection of objects with a heat signature
-                        •	disaster recovery aid: utilized to find humans or pets in disaster zone
+                        •	Infrared Proximity Sensory that allows detection of objects with a heat signature
+                        •	Disaster Recovery Aid: utilized to find humans or pets in disaster zone
                 2.	recoveryRobot_proximity_sensor_laser
-                        •	laser proximity sensor detects water and reroutes robot from entering water
-                        •	disaster recovery aid: utilized to prevent robot from becoming immobile from water
+                        •	Laser Proximity Sensor detects water and reroutes robot from entering water
+                        •	Disaster Recovery Aid: utilized to prevent robot from becoming immobile from water
             •  Existing Sensors
                 1.	recoveryRobot_proximity_sensor_ultrasonic
-                        •	modification: angle has been increased to prevent wheels from getting caught on objects
-                        •	ultrasonic proximity sensor prevents robot from collisions with objects
+                        •	Modification: angle has been increased to prevent wheels from getting caught on objects
+                        •	Ultrasonic Proximity Sensor prevents robot from collisions with objects
                         •	recoveryRobot_vision_sensor
-                            o   child sensor that allows vision in floating view
+                            o   Child sensor that allows vision in floating view
                             
 
     Internal Representation of the Environment 
           •  The robot maintains an internal representation of the environment through its use of a vision sensor, and three proximity sensors
-                •  vision sensor provides a first-person view from the robot’s perspective
-                •  ultrasonic proximity sensor informs the robot of near objects and allows it to prevent collisions 
-                •  infrared proximitysensor detects heat signatures
-                •  laser proximity sensor notifies the robot of approaching water and reroutes the robot to avoid entry
+                •  Vision Sensor provides a first-person view from the robot’s perspective
+                •  Ultrasonic Proximity Sensor informs the robot of near objects and allows it to prevent collisions 
+                •  Infrared Proximity Sensor detects heat signatures
+                •  Laser Proximity Sensor notifies the robot of approaching water and reroutes the robot to avoid entry
           •  Simultaneous internal processing of these inputs creates a representation of the surroundings which is utilized to navigate the environment
 
 
