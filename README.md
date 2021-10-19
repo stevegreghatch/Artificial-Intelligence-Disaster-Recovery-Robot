@@ -1,5 +1,7 @@
 # Introduction to Artificial Intelligence - Disaster Recovery Robot - CoppeliaSim
 
+SOLUTION
+
 [Video Demonstration](https://www.youtube.com/watch?v=BGbjMYSzDnA&ab_channel=StevenHatch)
 
 
