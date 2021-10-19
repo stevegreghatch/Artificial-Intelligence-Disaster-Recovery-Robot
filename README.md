@@ -6,9 +6,9 @@ SOLUTION
 
 
     Disaster Environment
-        •  The disaster recovery environment chosen for this assignment is the aftermath of a tornado
-        •  The floor of the scene is a ground terrain object
-        •  The obstacles that have been added to the environment are debris objects and water
+        •  Disaster recovery environment chosen for this assignment is the aftermath of a tornado
+        •  Floor of the scene is a ground terrain object
+        •  Obstacles that have been added to the environment include debris objects and water
               •  Smaller Debris = multiple cylinders to represent household items 
               •  Larger Debris = elongated cuboids to represent roof rafters 
               •  Water = terrain object to represent potential flooding
