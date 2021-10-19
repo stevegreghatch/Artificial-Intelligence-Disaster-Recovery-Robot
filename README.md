@@ -10,35 +10,31 @@ For the next step, you will thoroughly describe a disaster situation similar to 
 
 REQUIREMENTS
 
-Using the CoppeliaSim virtual robot, create a virtual prototype of an autonomous robotic recovery system that demonstrates goal-seeking behaviors in navigating through a predefined area by doing the following: 
+    Using the CoppeliaSim virtual robot, create a virtual prototype of an autonomous robotic recovery system that demonstrates goal-seeking behaviors in navigating through a predefined area by doing the following: 
 
-A.  Describe the disaster recovery environment you chose and the two obstacles you have added to the environment. 
+    A.  Describe the disaster recovery environment you chose and the two obstacles you have added to the environment. 
 
-B.  Explain how the robot will improve disaster recovery in the environment from part A after you have added the two obstacles from part A. 
+    B.  Explain how the robot will improve disaster recovery in the environment from part A after you have added the two obstacles from part A. 
 
-C.  Justify the modifications you made to CoppeliaSim’s robot architecture, including two sensors you chose to add, and explain how these sensors will aid the disaster recovery effort. 
+    C.  Justify the modifications you made to CoppeliaSim’s robot architecture, including two sensors you chose to add, and explain how these sensors will aid the disaster recovery effort. 
 
-D.  Describe how the robot maintains an internal representation of the environment. 
+    D.  Describe how the robot maintains an internal representation of the environment. 
 
-E.  Explain how the robot implements the following four concepts to achieve its goal: 
+    E.  Explain how the robot implements the following four concepts to achieve its goal: 
+            •   reasoning 
+            •   knowledge representation 
+            •   uncertainty 
+            •   intelligence 
 
-•   reasoning 
-•   knowledge representation 
-•   uncertainty 
-•   intelligence 
+    F.  Explain how the prototype could be further improved, including how reinforced learning and advanced search algorithms can improve the prototype’s performance and learning. 
 
-F.  Explain how the prototype could be further improved, including how reinforced learning and advanced search algorithms can improve the prototype’s performance and learning. 
+    G.  Submit the robot code that you created. 
 
-
-G.  Submit the robot code that you created. 
-
-
-H.  Provide a Panopto video recording that describes the robot and demonstrates its functionalities to stakeholders who are nonpractitioners and include each of the following: 
-
-•   a statement of the disaster recovery problem 
-•   a summary of the environment and the obstacles 
-•   a summary of the robot’s goal and objectives 
-•   a description of the robot and its architecture 
-•   a demonstration of how the robot meets its disaster recovery goals 
-•   an assessment of the robot’s capabilities 
-•   an explanation of how to improve the prototype 
+    H.  Provide a Panopto video recording that describes the robot and demonstrates its functionalities to stakeholders who are nonpractitioners and include each of the following: 
+            •   a statement of the disaster recovery problem 
+            •   a summary of the environment and the obstacles 
+            •   a summary of the robot’s goal and objectives 
+            •   a description of the robot and its architecture 
+            •   a demonstration of how the robot meets its disaster recovery goals 
+            •   an assessment of the robot’s capabilities 
+            •   an explanation of how to improve the prototype 
