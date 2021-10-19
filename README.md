@@ -45,19 +45,19 @@ SOLUTION
       Through simultaneous internal processing of the beforementioned inputs, a representation of the robot’s surroundings is utilized by the robot to navigate its environment. 
 
 
-    Reasoning
+    Reasoning: 
         •  Informed action
         •  The robot can differentiate various signals (ultrasonic, infrared, and laser). Using the gathered environmental data, the robot can act to survey the disaster site without issue and identify individuals in need of rescue
 
-    Knowledge Representation
+    Knowledge Representation:
         •  Visual display
         •  The robot provides a first-person point of view. The robot’s knowledge of its environment is represented in a visual format which can be used by rescue crews to monitor the robot’s performance and see potentially inaccessible areas of the disaster site
 
-    Uncertainty
+    Uncertainty:
         •  The robot proceeds with caution
         •  The robot is traversing at a slow speed and the sensor volume parameters are set to a great enough distance as to prevent the robot from taking any undesirable action. These characteristics reinforce the intention of cautious exploration
 
-    Intelligence
+    Intelligence:
         •  To achieve its goal, the robot combines its reasoning (utilization of its sensors and action on gathered environmental data) with its representation of knowledge (visual display), allowing it to overcome its necessary uncertainty (cautious exploration) and achieve its goal (identify individuals in need)
 
 
@@ -78,10 +78,12 @@ SOLUTION
     Implementation of advanced search algorithms that teach the robot to recognize common shapes/patterns corresponding with individuals in need will allow for detection of individuals without a heat signature (that might have unfortunately passed away).
 
 
-    Robot Code: see above disaster recovery robot.ttt file
+    Robot Code: 
+    See above disaster recovery robot.ttt file
 
 
-    Panopto Recording: see above link
+    Panopto Recording: 
+    See above 'Video Demonstration' link
 
 -------------------------------------------------------------
 
