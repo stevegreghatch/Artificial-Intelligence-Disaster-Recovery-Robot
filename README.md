@@ -2,9 +2,9 @@
 
 [Video Demonstration](https://www.youtube.com/watch?v=BGbjMYSzDnA&ab_channel=StevenHatch)
 
-SOLUTION
 
 Disaster Environment: The disaster recovery environment chosen for this assignment is the aftermath of a tornado. The floor of the scene is a ground terrain object. The obstacles that have been added to the environment are debris objects (multiple cylinders to represent smaller debris such as household items and elongated cuboids to represent larger debris such as roof rafters) and water (terrain object to represent potential flooding).
+
                 
 Improved Disaster Recover: The robot will improve disaster recovery in the aftermath of a tornado after the previously mentioned obstacles have been added by its detection of heat signatures and successful navigation of the disaster site. Heat signature detection will inform rescue crews of the location of individuals or pets in need of assistance. The robot can successfully survey the site through utilization of sensors that prevent its collision with debris objects and entry into water.
         
@@ -44,7 +44,9 @@ Reinforced Learning: Improvement on the robot’s decision-making and total surv
         
 Advanced Search Algorithms: Improvement of shape and pattern recognition. Implementation of advanced search algorithms that teach the robot to recognize common shapes/patterns corresponding with individuals in need will allow for detection of individuals without a heat signature (that might have unfortunately passed away).
 
+
 Robot Code: see above disaster recovery robot.ttt file
+
 
 Panopto Recording: see above link
 
